@@ -18,7 +18,7 @@
   <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-5 login">
     <div class="card shadow-sm p-0  ">
       
-      <header class="bg-dark text-white p-4 text-center">
+      <header class=" text-white p-4 text-center fundopreto">
         <h2>Página de Login</h2>
       </header>
 
@@ -36,7 +36,7 @@
         </form>
       </div>
 
-      <footer class="bg-dark text-white p-3 text-center">
+      <footer class=" text-white p-3 text-center fundopreto">
         Todos os direitos reservados.
       </footer>
 
