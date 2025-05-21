@@ -16,7 +16,7 @@
 
   <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-5">
     <div class="card shadow-sm p-4" style="width: 100%; max-width: 400px;">
-      <h4 class="mb-4 text-center">Login</h4>
+      <h4 class="mb-4 text-center">Pagina de login</h4>
       <form>
         <div class="form-group">
           <label for="username">Nome de Usuário</label>
@@ -26,7 +26,7 @@
           <label for="password">Senha</label>
           <input type="password" class="form-control" id="password" placeholder="Senha">
         </div>
-        <button type="submit" class="btn btn-outline-primary">Entrar</button>
+        <button type="submit" class="btn btn-outline-primary btn-block">Entrar</button>
       </form>
     </div>
   </div>
