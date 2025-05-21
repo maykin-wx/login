@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -14,8 +15,8 @@
 </head>
 <body class="bg-light">
 
-  <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-5">
-    <div class="card shadow-sm p-0" style="width: 100%; max-width: 400px;">
+  <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-5 login">
+    <div class="card shadow-sm p-0  ">
       
       <header class="bg-dark text-white p-4 text-center">
         <h2>Página de Login</h2>
