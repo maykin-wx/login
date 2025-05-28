@@ -1,3 +1,11 @@
+<?php
+if($_POST['usuario']  == 'admin' && $_POST['senha'] == 'senha'){
+  session_start();
+  $_SESSION['login'] == $_POST['login'];
+}else{
+  echo"<script> alert('Opa... deu merda!' ) </script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -18,7 +26,9 @@
   <div class="container d-flex justify-content-center  min-vh-100 mt-5">
 
   <div class="alert alert-success " role="alert">
-  <h4 class="alert-heading mt-3 mr-5 ml-5">Seja bem vindo ao sistema XXXXX!</h4>
+    <?php
+    echo "<h4 class='alert-heading mt-3 mr-5 ml-5'>Seja bem vindo ao sistema ". $_SESSION['login'] ."!</h4>";
+    ?>
   <button type="button" class="btn btn-outline-dark btn-block mt-4 mb-4">Ir para a proxima pagina</button>
 </div>
   </div>

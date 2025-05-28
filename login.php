@@ -23,14 +23,14 @@
       </header>
 
       <div class="p-4 ">
-        <form>
+        <form action=response.php method="POST">
           <div class="form-group ">
             <label for="username">Nome de Usuário</label>
-            <input type="text" class="form-control" id="username" placeholder="Seu nome de usuário">
+            <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Seu nome de usuário">
           </div>
           <div class="form-group">
             <label for="password">Senha</label>
-            <input type="password" class="form-control" id="password" placeholder="Senha">
+            <input type="password" class="form-control"name="senha" id="senha"  placeholder="Senha">
           </div>
           <button type="submit" class="btn btn-outline-dark btn-block">Entrar</button>
         </form>
