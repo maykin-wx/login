@@ -13,18 +13,18 @@
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
           crossorigin="anonymous" defer></script>
 </head>
-<body class="bg-light">
+<body class="bg-light body1">
 
   <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-5 login">
-    <div class="card shadow-sm p-0  ">
+    <div class="card shadow-sm p-0  border-0">
       
-      <header class=" text-white p-4 text-center fundopreto">
+      <header class=" text-white p-4 text-center fundopreto ">
         <h2>Página de Login</h2>
       </header>
 
-      <div class="p-4">
+      <div class="p-4 ">
         <form>
-          <div class="form-group">
+          <div class="form-group ">
             <label for="username">Nome de Usuário</label>
             <input type="text" class="form-control" id="username" placeholder="Seu nome de usuário">
           </div>
