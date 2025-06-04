@@ -36,11 +36,28 @@
         </form>
       </div>
 
-      <footer class=" text-white p-3 text-center fundopreto">
+      <footer class="text-white p-3 text-center fundopreto">
         Todos os direitos reservados.
       </footer>
 
     </div>
+
+    <?php
+    if (isset($_GET['return'])) {
+      echo '
+      <div class="row justify-content-end fixed-bottom">
+        <div class="col-12 col-sm-6 col-md-4 ml-2 mr-2">
+          <div class="alert alert-warning p-3">
+            <h4 class="text-center">'
+              . $_GET['return'] .
+            '</h4>
+          </div>
+        </div>
+      </div>
+      ';
+    }
+    ?>
+
   </div>
 
 </body>
