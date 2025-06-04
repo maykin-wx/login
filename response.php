@@ -28,10 +28,12 @@ if($_POST['usuario']  == 'admin' && $_POST['senha'] == 'senha'){
 
   <div class="alert alert-success " role="alert">
     <?php
-    echo "<h4 class='alert-heading mt-3 mr-5 ml-5'>Seja bem vindo ao sistema ". $_SESSION['usuario'] ."!</h4>";
+    echo "<h4 class='alert-heading mt-3 mr-5 ml-5'>Seja bem vindo ao sistema " . $_SESSION['usuario'] ."!</h4>";
     ?>
-  <button type="button" class="btn btn-outline-dark btn-block mt-4 mb-4">Ir para a proxima pagina</button>
-</div>
+    <form action="dashboard.php" method="post">
+    <button type="submit" class="btn btn-outline-dark btn-block mt-4 mb-4">Ir para a próxima página</button>
+</form>
+
   </div>
 
 </body>
