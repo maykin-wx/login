@@ -25,11 +25,16 @@ if (!isset($_SESSION['usuario'])) {
 <div class="container mt-2">
     <div class="row justify-content-center">
         <div class="col-12 col-sm-8 col-md-6">
-            <div class="alert alert-success">
-                <h3 class="text-center">Dashboard do Sistema</h3>
-                <h4 class="alert-heading mt-3 text-center">
+            <div class="alert alert-success text-center">
+                <h3>Dashboard do Sistema</h3>
+                <h4 class="alert-heading mt-3">
                     Seja bem-vindo ao sistema <?php echo $_SESSION['usuario']; ?>!
                 </h4>
+
+        
+                <div class="mt-4">
+                    <a href="logout.php" class="btn btn-danger btn-block">Sair</a>
+                </div>
             </div>
         </div>
     </div>
